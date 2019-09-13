@@ -82,7 +82,7 @@ Before you can install the Cloud Pak, you must purchase a license through
 [IBM Passport Advantage  ![External link icon](../../icons/launch-glyph.svg "External link icon")]](https://www.ibm.com/software/passportadvantage/index.html){:new_window}.
 The part number for IBM Cloud Pak for Applications is D22H2LL.  You can have one installation of {{site.data.keyword.icpa_short}} per license.
 
-Make sure you have a RedHat OpenShift cluster already set up and that it meets the minimum requirements: ___ . If you have not already set up a cluster, create one and then return to the {{site.data.keyword.icpa_short}} page.
+Make sure you have a RedHat OpenShift cluster already set up. If you have not already set up a cluster, create one and then return to the {{site.data.keyword.icpa_short}} page.
 
 ## Step 1. Configure your installation environment
 {: step1}
