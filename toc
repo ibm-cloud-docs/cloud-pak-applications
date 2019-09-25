@@ -1,0 +1,17 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="cloud-pak-applications" category="devops" audience="service" href="/docs/cloud-pak-applications?topic=cloud-pak-applications-getting-started#getting-started" path="cloud-pak-applications"}
+IBM Cloud Pak for Applications
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    overview.md
+
+    {: .topicgroup}
+    Related links
+        [Kabanero](https://kabanero.io/)
+        [IBM Cloud Transformation Advisor](https://ibm.biz/cloudta)
+    {: .navgroup-end}
+
+
