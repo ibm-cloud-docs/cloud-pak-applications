@@ -2,11 +2,9 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-09-12"
+lastupdated: "2019-09-25"
 
 ---
-
-<!-- Update the lastupdated value each time that you change the file. -->
 
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}

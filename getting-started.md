@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-09-06"
+lastupdated: "2019-09-25"
 
 keywords: getting started tutorial, getting started, Cloud Pak for Applications, Kabanero, icp, icpa, icp4a, ocp, openshift, was, mobile, runtime, container
 
@@ -18,29 +18,11 @@ subcollection: cloud-pak-applications
 {:note: .note}
 {:external: target="_blank" .external}
 
-
-<!-- Please delete content examples and coding that you are not using for your service. -->
-
 # Getting started with {{site.data.keyword.icpa_short}}
 {: #getting-started}
 
-<!-- The title of your H1 should be Getting started with _cloud-pak_, where _cloud-pak_ is the
-non-trademarked short version conref. Include getting started and variations of your cloud pak
-name and function in the `meta keywords` values. See the example keywords above. -->
-
-<!-- Short description: REQUIRED
-The short description section should include one to two sentences describing why a user would want to use this Cloud Pak.
-Briefly mention what the user's learning goal is and include the following SEO keywords in the title and/or the short description: IBM Cloud, CloudPakName. Be sure to use conversational style. For more details, see the guidance on conversational style in the Carbon Design System at http://www.carbondesignsystem.com/guidelines/content/general.
-
-Example: -->
-
 {{site.data.keyword.icpa_rm}} is an enterprise-ready, containerized software solution for modernizing existing applications and developing new cloud-native apps that run on Red Hat&reg; OpenShift&reg;. This hybrid, multicloud foundation breaks down technology and data silos to make modernization faster and more secure, and speeds development of applications built for Kubernetes. You can access cloud services and meet the technology standards and policies your company requires.
 {: shortdesc}
-
-<!-- Component section: REQUIRED
-The component section includes a list of the offerings included in the Cloud Pak. Also include where a user can find more information on each offering.
-
-Example: -->
 
 ## What's inside this Cloud Pak
 {: #whatsinside}
@@ -58,13 +40,6 @@ Example: -->
 
 For more information about these products, see the **Key offerings** section of the [About](cloud-pak-applications?topic=cloud-pak-applications-about) page.
 
-<!-- Task section: REQUIRED
-The task section includes steps to get the Cloud Pak installed through IBM Cloud and next initial steps to get up and running.
-- DO include the basic, most-common-use scenario steps to use the Cloud Pak.
-- DO NOT repeat the UI from IBM Cloud catalog details page; instead, reference the pages or sections.
--->
-
-<!-- Include a prerequisites paragraph for any prerequisites to be met. For example: REQUIRED -->
 ## Before you begin
 {: #prereqs}
 Before you can install the Cloud Pak, you must purchase a license through
@@ -146,58 +121,3 @@ After the installation completes, links to your {{site.data.keyword.icpa_short}}
 1. Click **Service Catalog**, then select **Application Console**.  You should see several projects installed.
    - If you click the **kabanero** project, the Overview tab contains the URLs to the **icpa-landing** page and the **tekton-dashboard**.
    - If you click the **ta** project, the Overview tab contains the URL to the {{site.data.keyword.ta_short}} UI.
-
-
-<!-- For code examples:
-- use three backticks ahead of and after the example (```)
-- For copyable code snippet, multi-line, include {: codeblock} following the last set of backticks. A copy button will display in framework in output.
-- For copyable command, single line, include {: pre} following the last set of backticks. When displayed, it will show "$" at the beginning of the command example and a copy button, but the copy button will include just the command example.
-- For non-copyable output snippet, include {: screen} following the last set of backticks.
- -->
-
-<!--
-	```
-	Copyable example for this step.
-	This example might be multiline code
-	to copy into a file.
-	When displayed in the doc framework,
-	it will have a copy button on the right.
-	The user can click to copy the example
-	so they can paste it into their code editor.
-	```
-	{: codeblock}
-
-	```
-	This is a bunch of output from
-		a command or program I ran
-			and it can run lots of lines
-			and the doc framework will show it as
-			output with no copy button.
-	```
-	{: screen}
-
-
-## Next steps -->
-
-<!-- Add the topic to your `toc` file:
-
-
-{:navgroup: .navgroup}
-{:topicgroup: .topicgroup}
-
-{: .toc subcollection="<Folder_name>" audience="<category>" href="/docs/<folder_name>?topic=<subcollection>getting-started"}
-<Cloud Pak Name>
-
-    {: .navgroup id="learn"}
-    getting-started.md
-
-    {: .topicgroup}
-    Related links
-        [Link text](link URL)
-    {: .navgroup-end}
-
-    {: .navgroup id="reference"}
-    Reference
-    [Link text](link URL)
-    {: .navgroup-end}
--->
