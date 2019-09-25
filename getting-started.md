@@ -75,6 +75,7 @@ Also, ensure that you have the proper permissions:
 | Product or action | Permission required |
 | ----------------- | ------------------- |
 | On the OCP cluster | Manager and Writer roles for 'Kubernetes Cluster' service |
+| For the Resource Group that contains the OCP cluster | Viewer role |
 | To assign the entitlement | Editor role for 'License and Entitlement' service |
 | To install {{site.data.keyword.icpa_short}} | Manager role for the 'Schematics' service |
 
