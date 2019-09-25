@@ -4,6 +4,7 @@ copyright:
   years: 2019
 lastupdated: "2019-09-25"
 
+subcollection: cloud-pak-applications
 ---
 
 {:new_window: target="_blank"}
