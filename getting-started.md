@@ -70,14 +70,16 @@ Make sure that you have a Red Hat OpenShift cluster, and make sure that it meets
 
 If you do not have a cluster, create one and then return to the {{site.data.keyword.icpa_short}} page.
 
-Also, ensure that you have the proper permissions:
+Also, ensure that you have the proper IBM Cloud Identity and Access Management (IAM) permissions:
 
-| Product or action | Permission required |
+| Service or Resource | IAM Role(s) |
 | ----------------- | ------------------- |
-| On the OCP cluster | Manager and Writer roles for 'Kubernetes Cluster' service |
-| For the Resource Group that contains the OCP cluster | Viewer role |
-| To assign the entitlement | Editor role for 'License and Entitlement' service |
-| To install {{site.data.keyword.icpa_short}} | Manager role for the 'Schematics' service |
+| 'Kubernetes Cluster' service | Manager and Writer |
+| Resource Group containing the OCP cluster | Viewer |
+| 'License and Entitlement' service | Editor |
+| 'Schematics' service | Manager |
+
+For more information on IAM roles and permissions, see [Managing identity and access](https://cloud.ibm.com/docs/iam?topic=iam-userroles).
 
 ## Step 1. Configure your installation environment
 {: step1}
