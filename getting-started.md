@@ -21,7 +21,7 @@ subcollection: cloud-pak-applications
 # Getting started with {{site.data.keyword.icpa_short}}
 {: #getting-started}
 
-{{site.data.keyword.icpa_rm}} is an enterprise-ready, containerized software solution for modernizing existing applications and developing new cloud-native apps that run on Red Hat&reg; OpenShift&reg;. This hybrid, multicloud foundation breaks down technology and data silos to make modernization faster and more secure, and speeds development of applications built for Kubernetes. You can access cloud services and meet the technology standards and policies your company requires.
+{{site.data.keyword.icpa_rm}} is an enterprise-ready, containerized software solution for modernizing existing applications and developing new cloud-native apps that run on Red Hat&reg; OpenShift&reg;. This hybrid, multicloud foundation breaks down technology and data silos to make modernization faster and more secure, and speeds development of applications built for Kubernetes. You can access cloud services and meet the technology standards and policies your company requires.  Also,  with IBM Mobile Foundation in this Cloud Pak you can build and deploy the next generation of multi channel digital apps, including mobile, wearables, conversation, web, and PWAs that extend the out-reach of your modernized and cloud native apps.
 {: shortdesc}
 
 ## What's inside this Cloud Pak
@@ -124,3 +124,7 @@ After the installation completes, links to your {{site.data.keyword.icpa_short}}
 1. Click **Service Catalog**, then select **Application Console**.  You should see several projects installed.
    - If you click the **kabanero** project, the Overview tab contains the URLs to the **icpa-landing** page and the **tekton-dashboard**.
    - If you click the **ta** project, the Overview tab contains the URL to the {{site.data.keyword.ta_short}} UI.
+   
+## Step 7. Install IBM Mobile Foundation (optional)
+{: step7}
+Optionally, if you wish extend the out-reach of your modernised and cloud-native apps via multi-channel digital apps to front-end install IBM Mobile Foundation.  See [here](http://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/ibmcloud/deploy-mf-on-ibmcloud-ocp/)for a quick install.
