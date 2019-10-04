@@ -21,7 +21,7 @@ subcollection: cloud-pak-applications
 # Getting started with {{site.data.keyword.icpa_short}}
 {: #getting-started}
 
-{{site.data.keyword.icpa_rm}} is an enterprise-ready, containerized software solution for modernizing existing applications and developing new cloud-native apps that run on Red Hat&reg; OpenShift&reg;. This hybrid, multicloud foundation breaks down technology and data silos to make modernization faster and more secure, and speeds development of applications built for Kubernetes. You can access cloud services and meet the technology standards and policies your company requires.  Also,  with IBM Mobile Foundation in this Cloud Pak you can build and deploy the next generation of multi channel digital apps, including mobile, wearables, conversation, web, and PWAs that extend the out-reach of your modernized and cloud native apps.
+{{site.data.keyword.icpa_rm}} is an enterprise-ready, containerized software solution for modernizing existing applications and developing new cloud-native apps that run on Red Hat&reg; OpenShift&reg;. This hybrid, multicloud foundation breaks down technology and data silos to make modernization faster and more secure, and speeds development of applications built for Kubernetes. You can access cloud services and meet the technology standards and policies your company requires.  Also,  with IBM Mobile Foundation in this Cloud Pak you can build and deploy the next generation of multi channel digital apps, including mobile, wearables, conversation, web, and PWAs that extend the outreach of your modernized and cloud native apps.
 {: shortdesc}
 
 ## What's inside this Cloud Pak
