@@ -127,4 +127,4 @@ After the installation completes, links to your {{site.data.keyword.icpa_short}}
    
 ## Step 7. Install IBM Mobile Foundation (optional)
 {: step7}
-Optionally, if you wish extend the out-reach of your modernised and cloud-native apps via multi-channel digital apps to front-end install IBM Mobile Foundation.  See [here](http://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/ibmcloud/deploy-mf-on-ibmcloud-ocp/)for a quick install.
+Optionally, if you wish extend the outreach of your modernised and cloud-native apps via multi-channel digital apps to front-end install IBM Mobile Foundation.  See [Deploy Mobile Foundation on Red Hat OpenShift Container Platform on IBM Cloud for installation instructions](http://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/ibmcloud/deploy-mf-on-ibmcloud-ocp/) for installation instructions.
