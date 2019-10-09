@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-09-25"
+lastupdated: "2019-10-09"
 
 keywords: getting started tutorial, getting started, Cloud Pak for Applications, Kabanero, icp, icpa, icp4a, ocp, openshift, was, mobile, runtime, container
 
@@ -21,7 +21,7 @@ subcollection: cloud-pak-applications
 # Getting started with {{site.data.keyword.icpa_short}}
 {: #getting-started}
 
-{{site.data.keyword.icpa_rm}} is an enterprise-ready, containerized software solution for modernizing existing applications and developing new cloud-native apps that run on Red Hat&reg; OpenShift&reg;. This hybrid, multicloud foundation breaks down technology and data silos to make modernization faster and more secure, and speeds development of applications built for Kubernetes. You can access cloud services and meet the technology standards and policies your company requires.
+{{site.data.keyword.icpa_rm}} is an enterprise-ready, containerized software solution for modernizing existing applications and developing new cloud-native apps that run on Red Hat&reg; OpenShift&reg;. This hybrid, multicloud foundation breaks down technology and data silos to make modernization faster and more secure, and speeds development of applications built for Kubernetes. You can access cloud services and meet the technology standards and policies your company requires. With IBM Mobile Foundation in this Cloud Pak, developers get a secured platform to rapidly build and deploy the next generation of digital apps, including mobile, wearables, conversation, web, and PWAs.
 {: shortdesc}
 
 ## What's inside this Cloud Pak
@@ -72,7 +72,7 @@ If you do not have a cluster, create one and then return to the {{site.data.keyw
 
 Also, ensure that you have the proper IBM Cloud Identity and Access Management (IAM) permissions:
 
-| Service or Resource | IAM Role(s) |
+| Service or Resource | IAM Roles |
 | ----------------- | ------------------- |
 | 'Kubernetes Cluster' service | Manager and Writer |
 | Resource Group containing the OCP cluster | Viewer |
@@ -124,3 +124,8 @@ After the installation completes, links to your {{site.data.keyword.icpa_short}}
 1. Click **Service Catalog**, then select **Application Console**.  You should see several projects installed.
    - If you click the **kabanero** project, the Overview tab contains the URLs to the **icpa-landing** page and the **tekton-dashboard**.
    - If you click the **ta** project, the Overview tab contains the URL to the {{site.data.keyword.ta_short}} UI.
+
+## Step 7. Install IBM Mobile Foundation (optional)
+{: step7}
+
+Optionally, install IBM Mobile Foundation to extend the outreach of your modernized and cloud-native apps. See [Deploy Mobile Foundation on Red Hat OpenShift Container Platform on IBM Cloud for installation instructions](http://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/ibmcloud/deploy-mf-on-ibmcloud-ocp/) for installation instructions.

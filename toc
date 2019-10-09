@@ -7,11 +7,10 @@ IBM Cloud Pak for Applications
     {: .navgroup id="learn"}
     getting-started.md
     overview.md
+    troubleshooting.md
 
     {: .topicgroup}
     Related links
         [Kabanero](https://kabanero.io/)
         [IBM Cloud Transformation Advisor](https://ibm.biz/cloudta)
     {: .navgroup-end}
-
-
