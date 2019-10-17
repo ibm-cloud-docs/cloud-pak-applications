@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-10-09"
+lastupdated: "2019-10-17"
 
 keywords: getting started tutorial, getting started, Cloud Pak for Applications, Kabanero, icp, icpa, icp4a, ocp, openshift, was, mobile, runtime, container
 
@@ -17,6 +17,7 @@ subcollection: cloud-pak-applications
 {:tip: .tip}
 {:note: .note}
 {:external: target="_blank" .external}
+
 
 # Getting started with {{site.data.keyword.icpa_short}}
 {: #getting-started}
@@ -36,15 +37,14 @@ subcollection: cloud-pak-applications
 | **Red Hat Runtimes** | Open runtimes, tools, and components for developing and maintaining cloud-native applications |
 | **IBM Mobile Foundation** | An industry-leading, secured platform for developing and deploying the next generation of digital apps |
 | **IBM Modernization &amp; Developer Tools** | Tools to assist with your move to the cloud |
+| **{{site.data.keyword.ta}}** | A developer tool that helps you plan, prioritize, and package your on-premises workloads for modernization |
 | **IBM Cloud Private** | A private cloud platform that provides the benefits of the public cloud from the safety of your firewall-protected data center |
 
 For more information about these products, see the **Key offerings** section of the [About](cloud-pak-applications?topic=cloud-pak-applications-about) page.
 
 ## Before you begin
 {: #prereqs}
-Before you can install the Cloud Pak, you must purchase a license through
-[IBM Passport Advantage  ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/software/passportadvantage/index.html){:new_window}.
-The part numbers for {{site.data.keyword.icpa_short}} are as follows.  You can have one installation of {{site.data.keyword.icpa_short}} per license.
+Before you can install the Cloud Pak, you must purchase a license. The part numbers for {{site.data.keyword.icpa_short}} are as follows. You can have one installation of {{site.data.keyword.icpa_short}} per license.
 
 | Part Number | Description |
 | ----------- | ----------- |
@@ -106,7 +106,7 @@ Run the preinstallation script. Only a cluster administrator can run the script.
 
 ## Step 4. Set the deployment values
 {: step4}
-Ensure that an entitlement is assigned.  If not, get an entitlement from IBM Passport Advantage.
+Ensure that an entitlement is assigned.  If not, you must get an entitlement.
 
 Confirm your agreement to the Third-Party Service Agreements by checking the box.
 
