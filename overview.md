@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-09-25"
+lastupdated: "2019-10-17"
 
 subcollection: cloud-pak-applications
 ---
@@ -68,9 +68,18 @@ Red Hat Runtimes provides a set of open runtimes, tools, and components for deve
 IBM Mobile Foundation offers an industry-leading secured platform for developers to rapidly build and deploy the next generation of digital apps, including mobile, wearables, conversation, web, and PWAs. With Mobile Foundation, developers get containerized mobile back-end services that cover comprehensive security, application life cycle management, push notifications, feature toggle, off-line sync, and back-end integration.
 
 ### IBM Modernization & Developer Tools
+{: moddev}
 
-Included at no cost are modernization tools such as IBM Cloud Transformation Advisor to assist with your move to the cloud, and developer tools such as Eclipse Codewind to build and deploy your new cloud-native applications with the IDE of your choice.
+Included at no cost are modernization tools such as {{site.data.keyword.ta}} to assist with your move to the cloud, and developer tools such as Eclipse Codewind to build and deploy your new cloud-native applications with the IDE of your choice.
+
+### IBM Cloud Transformation Advisor
+{: ta}
+
+IBM Cloud Transformation Advisor helps you plan, prioritize, and package your on-premises workloads for modernization on IBM {{site.data.keyword.icpa_short}}. {{site.data.keyword.ta_short}} gathers preferences about your on-premises and desired cloud environments and then analyzes existing middleware deployments using a data collector. After uploading the results of the data collector, you can review recommendations for migrating your applications to different cloud platforms as well as the estimated effort to migrate and modernize. {{site.data.keyword.ta_short}} also creates necessary deployment artifacts to accelerate your migration into IBM {{site.data.keyword.icpa_short}}.
+
+Learn more about {{site.data.keyword.ta_short}} at the [IBM Cloud Transformation Advisor web page](https://www.ibm.com/garage/method/practices/learn/ibm-transformation-advisor){: new_window}.
 
 ### IBM Cloud Private
+{: cpriv}
 
-IBM Cloud Private is a private cloud platform that provides the benefits of the public cloud from the safety of your firewall-protected data center. With the acquisition of Red Hat, IBM is standardizing on Red Hat OpenShift Container Platform as its platform for cloud native, container based, Kubernetes orchestration. Entitlement to IBM Cloud Private is included in Cloud Pak for Applications to facilitate the transition to OpenShift.
+IBM Cloud Private is a private cloud platform that provides the benefits of the public cloud from the safety of your firewall-protected data center. With the acquisition of Red Hat, IBM is standardizing on Red Hat OpenShift Container Platform as its platform for cloud native, container based, Kubernetes orchestration. Entitlement to IBM Cloud Private is included in {{site.data.keyword.icpa_short}} to facilitate the transition to OpenShift.
