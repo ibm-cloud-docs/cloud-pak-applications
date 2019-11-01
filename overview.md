@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-10-17"
+lastupdated: "2019-11-1"
 
 subcollection: cloud-pak-applications
 ---
@@ -57,7 +57,13 @@ Red Hat OpenShift delivers a comprehensive solution for hybrid cloud, enterprise
 
 ![`Kabanero.io` open source content is provided in {{site.data.keyword.icpa}}.](images/kabanero.png)
 
-Learn more about Kabanero at the [Kabanero.io website](https://kabanero.io).
+Learn more about Kabanero at the [Kabanero.io website ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://kabanero.io){: new_window}.
+
+## IBM Application Navigator
+
+IBM Application Navigator is a tool that helps you visualize, inspect, and monitor the deployed resources in applications, with a single view across hybrid deployments. After you modernize your applications, you can use Application Navigator to define cloud applications, import Network Deployment cells or Liberty collectives to visualize both existing and containerized applications, add your modernized applications to cloud applications, and otherwise administer cloud native and hybrid applications. Application Navigator extends the open source Kubernetes Application Navigator (kAppNav) with integrated support for WebSphere Application Server Network Deployment and Liberty.
+
+Learn more about IBM Application Navigator at [https://ibm.github.io/appnav ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibm.github.io/appnav){: new_window}, and about kAppNav at [https://kappnav.io ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://kappnav.io){: new_window}.
 
 ### Red Hat Runtimes
 {: rhrt}
@@ -77,7 +83,7 @@ Included at no cost are modernization tools such as {{site.data.keyword.ta}} to 
 
 IBM Cloud Transformation Advisor helps you plan, prioritize, and package your on-premises workloads for modernization on IBM {{site.data.keyword.icpa_short}}. {{site.data.keyword.ta_short}} gathers preferences about your on-premises and desired cloud environments and then analyzes existing middleware deployments using a data collector. After uploading the results of the data collector, you can review recommendations for migrating your applications to different cloud platforms as well as the estimated effort to migrate and modernize. {{site.data.keyword.ta_short}} also creates necessary deployment artifacts to accelerate your migration into IBM {{site.data.keyword.icpa_short}}.
 
-Learn more about {{site.data.keyword.ta_short}} at the [IBM Cloud Transformation Advisor web page](https://www.ibm.com/garage/method/practices/learn/ibm-transformation-advisor){: new_window}.
+Learn more about {{site.data.keyword.ta_short}} at the [IBM Cloud Transformation Advisor web page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/garage/method/practices/learn/ibm-transformation-advisor){: new_window}.
 
 ### IBM Cloud Private
 {: cpriv}

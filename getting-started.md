@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-10-17"
+lastupdated: "2019-11-1"
 
 keywords: getting started tutorial, getting started, Cloud Pak for Applications, Kabanero, icp, icpa, icp4a, ocp, openshift, was, mobile, runtime, container
 
@@ -38,6 +38,7 @@ subcollection: cloud-pak-applications
 | **IBM Mobile Foundation** | An industry-leading, secured platform for developing and deploying the next generation of digital apps |
 | **IBM Modernization &amp; Developer Tools** | Tools to assist with your move to the cloud |
 | **{{site.data.keyword.ta}}** | A developer tool that helps you plan, prioritize, and package your on-premises workloads for modernization |
+| **IBM Application Navigator** | A tool that helps you visualize, inspect, and monitor the deployed resources in applications |
 | **IBM Cloud Private** | A private cloud platform that provides the benefits of the public cloud from the safety of your firewall-protected data center |
 
 For more information about these products, see the **Key offerings** section of the [About](cloud-pak-applications?topic=cloud-pak-applications-about) page.
@@ -66,7 +67,8 @@ Make sure that you have a Red Hat OpenShift cluster, and make sure that it meets
 | -------- | ----------- | ----------- | --------- | ----- |
 | {{site.data.keyword.ke_notm}} | 20 | 8 | 25 | 2 |
 | {{site.data.keyword.ta}} | 6 | 3 | 8 |  |
-| **Total** | **26** | **11** | **33** | **2** |
+| IBM Applicaton Navigator | 1 | 1 | 3 |  |
+| **Total** | **27** | **12** | **36** | **2** |
 
 If you do not have a cluster, create one and then return to the {{site.data.keyword.icpa_short}} page.
 
@@ -118,14 +120,18 @@ Click **Install**.
 
 ## Step 6. Next steps
 {: step6}
-After the installation completes, links to your {{site.data.keyword.icpa_short}} landing page, your Tekton Dashboard, and your {{site.data.keyword.ta_short}} UI are provided.  You can click the **View log** link and find them at the bottom of the log file, or through the UI:
+After the installation completes, verify that you can access the dashboards.
 
-1. Login to the OpenShift console.
-1. Click **Service Catalog**, then select **Application Console**.  You should see several projects installed.
-   - If you click the **kabanero** project, the Overview tab contains the URLs to the **icpa-landing** page and the **tekton-dashboard**.
-   - If you click the **ta** project, the Overview tab contains the URL to the {{site.data.keyword.ta_short}} UI.
+1. Click the displayed Kabanero Enterprise dashboard URL.
+2. On the Kabanero Enterprise dashboard, click **Instance**. The Kabanero Enterprise instance page provides information about your collections and, under **Tools**, has links to the Tekton dashboard and other tools such as Transformation Advisor.
 
-## Step 7. Install IBM Mobile Foundation (optional)
+You can also access the Kabanero Enterprise dashboard from an OpenShift Web Console. Go to the OpenShift Container Platform application console and click **Kabanero Enterprise** from the navigation menu.
+
+For information about how to use Kabanero Enterprise, see the [Kabanero resources ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://kabanero.io/){: new_window}.
+
+For information about how to use Transformation Advisor, see the [Transformation Advisor web page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibm.biz/cloudta){: new_window} and [videos ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://transformationadvisor.github.io/video/){: new_window}.
+
+## Step 7. (Optional) Install optional components
 {: step7}
 
-Optionally, install IBM Mobile Foundation to extend the outreach of your modernized and cloud-native apps. See [Deploy Mobile Foundation on Red Hat OpenShift Container Platform on IBM Cloud for installation instructions](http://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/ibmcloud/deploy-mf-on-ibmcloud-ocp/) for installation instructions.
+You can install other components to add features and functionality. See [Installing in the {{site.data.keyword.icpa_short}} Knowledge Center ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SSCSJL/install-icpa.html){: new_window} for a list of optional components and installation instructions.
