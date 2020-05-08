@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-11-1"
+  years: 2019, 2020
+lastupdated: "2020-04-30"
 
 keywords: getting started tutorial, getting started, Cloud Pak for Applications, Kabanero, icp, icpa, icp4a, ocp, openshift, was, mobile, runtime, container
 
@@ -22,7 +22,7 @@ subcollection: cloud-pak-applications
 # Getting started with {{site.data.keyword.icpa_short}}
 {: #getting-started}
 
-{{site.data.keyword.icpa_rm}} is an enterprise-ready, containerized software solution for modernizing existing applications and developing new cloud-native apps that run on Red Hat&reg; OpenShift&reg;. This hybrid, multicloud foundation breaks down technology and data silos to make modernization faster and more secure, and speeds development of applications built for Kubernetes. You can access cloud services and meet the technology standards and policies your company requires. With IBM Mobile Foundation in this Cloud Pak, developers get a secured platform to rapidly build and deploy the next generation of digital apps, including mobile, wearables, conversation, web, and PWAs.
+{{site.data.keyword.icpa_rm}} is an enterprise-ready, containerized software solution for modernizing existing applications and developing new cloud-native apps that run on Red Hat&reg; OpenShift&reg;. This hybrid, multicloud foundation breaks down technology and data silos to make modernization faster and more secure, and speeds development of applications built for Kubernetes. You can access cloud services and meet the technology standards and policies your company requires. With IBM {{site.data.keyword.mobilefoundation_short}} in this Cloud Pak, developers get a secured platform to rapidly build and deploy the next generation of digital apps, including mobile, wearables, conversation, web, and PWAs.
 {: shortdesc}
 
 ## What's inside this Cloud Pak
@@ -31,21 +31,26 @@ subcollection: cloud-pak-applications
 
 | Product | Description |
 | ------- | ----------- |
-| **IBM WebSphere Application Server** | Industry-leading, production-ready, standards-based Java™ EE-compliant architectures |
+| **IBM WebSphere Application Server** | Industry-leading, production-ready, standards-based Java&trade; EE-compliant architectures |
 | **Red Hat OpenShift Container Platform** |  A comprehensive solution for hybrid cloud, enterprise container, and Kubernetes development and deployments |
 | **{{site.data.keyword.ke}}** | The commercial, enterprise-ready, and fully supported implementation of the Kabanero.io open source community project |
 | **Red Hat Runtimes** | Open runtimes, tools, and components for developing and maintaining cloud-native applications |
-| **IBM Mobile Foundation** | An industry-leading, secured platform for developing and deploying the next generation of digital apps |
+| **IBM {{site.data.keyword.mobilefoundation_short}}** | An industry-leading, secured platform for developing and deploying the next generation of digital apps |
 | **IBM Modernization &amp; Developer Tools** | Tools to assist with your move to the cloud |
-| **{{site.data.keyword.ta}}** | A developer tool that helps you plan, prioritize, and package your on-premises workloads for modernization |
-| **IBM Application Navigator** | A tool that helps you visualize, inspect, and monitor the deployed resources in applications |
+| **{{site.data.keyword.cloud_notm}} {{site.data.keyword.ta_short}}** | A developer tool that helps you plan, prioritize, and package your on-premises workloads for modernization |
+| **IBM {{site.data.keyword.appnav}}** | A tool that helps you visualize, inspect, and monitor the deployed resources in applications |
 | **IBM Cloud Private** | A private cloud platform that provides the benefits of the public cloud from the safety of your firewall-protected data center |
 
-For more information about these products, see the **Key offerings** section of the [About](cloud-pak-applications?topic=cloud-pak-applications-about) page.
+For more information about these products, see the **Key offerings** section of the [About](/docs/cloud-pak-applications?topic=cloud-pak-applications-about) page.
 
 ## Before you begin
 {: #prereqs}
-Before you can install the Cloud Pak, you must purchase a license. The part numbers for {{site.data.keyword.icpa_short}} are as follows. You can have one installation of {{site.data.keyword.icpa_short}} per license.
+
+Before you can install the Cloud Pak, you must purchase a Cloud Pak license and configure a Red Hat OpenShift cluster for use with the Cloud Pak.
+
+To purchase a {{site.data.keyword.icpa_short}} license, consult your IBM representative or authorized IBM Business Partner. You can schedule a consultation from the [{{site.data.keyword.icpa}} web page](https://www.ibm.com/cloud/cloud-pak-for-applications){: external}. If your organization already purchased a valid license, your account administrator must bind the entitlement to your {{site.data.keyword.cloud_notm}} account before you can assign an entitlement with the [**Create** tab](#step1).
+
+The part numbers for {{site.data.keyword.icpa_short}} are as follows. You can have one installation of {{site.data.keyword.icpa_short}} per license.
 
 | Part Number | Description |
 | ----------- | ----------- |
@@ -60,17 +65,19 @@ Before you can install the Cloud Pak, you must purchase a license. The part numb
 | D24XHLL | IBM CLOUD PAK FOR APPLICATIONS VPC MONTHLY LICENSE |
 | D24XILL | IBM CLOUD PAK FOR APPLICATIONS VPC MONTHLY LICENSE |
 
+Get a Red Hat OpenShift cluster and configure it for use with the Cloud Pak. If you do not have a cluster, create one and then return to the {{site.data.keyword.icpa_short}} page.
 
-Make sure that you have a Red Hat OpenShift cluster, and make sure that it meets the minimum scheduling capacity:
+Make sure that the cluster meets the minimum scheduling capacity:
 
 | Software | Memory (GB) | CPU (cores) | Disk (GB) | Nodes |
 | -------- | ----------- | ----------- | --------- | ----- |
-| {{site.data.keyword.ke_notm}} | 20 | 8 | 25 | 2 |
-| {{site.data.keyword.ta}} | 6 | 3 | 8 |  |
-| IBM Applicaton Navigator | 1 | 1 | 3 |  |
-| **Total** | **27** | **12** | **36** | **2** |
+| {{site.data.keyword.ke_notm}} | 10 | 4 | 13 | 2 |
+| {{site.data.keyword.cloud_notm}} {{site.data.keyword.ta_short}} | 2 | 1 | 4 |  |
+| IBM {{site.data.keyword.appnav}} | 1 | 1 | 2 |  |
+| IBM {{site.data.keyword.mobilefoundation_short}} | 7 | 6 | 1 |  |
+| **Total** | **20** | **12** | **20** | **2** |
+Additional resources are required if the IBM Cloud Platform Common Services are installed. For more information, see [Common Services prerequisites](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x/install-prerequisites-cs.html){: external}.
 
-If you do not have a cluster, create one and then return to the {{site.data.keyword.icpa_short}} page.
 
 Also, ensure that you have the proper IBM Cloud Identity and Access Management (IAM) permissions:
 
@@ -81,57 +88,67 @@ Also, ensure that you have the proper IBM Cloud Identity and Access Management (
 | 'License and Entitlement' service | Editor |
 | 'Schematics' service | Manager |
 
-For more information on IAM roles and permissions, see [Managing identity and access](https://cloud.ibm.com/docs/iam?topic=iam-userroles).
+For more information on IAM roles and permissions, see [Managing identity and access](/docs/iam?topic=iam-userroles).
 
 ## Step 1. Configure your installation environment
-{: step1}
-Select a target cluster, and then select or type a name for your project in the **Project** field.
+{: #step1}
+
+On the [Cloud Pak **Create** tab](https://cloud.ibm.com/catalog/content/ibm-cp-applications) in the {{site.data.keyword.cloud_notm}} catalog, select a target cluster, and then select or type a name for your project in the **Project** field.
 
 You can view existing installations of {{site.data.keyword.icpa_short}} by expanding **View existing installations**.
 
 ## Step 2. Configure your workspace
-{: step2}
+{: #step2}
 In this step, define how your installation is managed in a Schematics workspace.
 
-You can type a name for the installation in the **Name** field, or use the default.  To view your existing resources,
+You can type a name for the installation in the **Name** field, or use the default. To view your existing resources,
 see the [resource list page](https://cloud.ibm.com/resources).
 
-Select a resource group from the **Resource group** list, or use the default.  For more information on resource
-groups, see [Best practices for organizing resources in a resource group](https://cloud.ibm.com/docs/resources?topic=resources-bp_resourcegroups#bp_resourcegroups).
+Select a resource group from the **Resource group** list, or use the default. For more information on resource
+groups, see [Best practices for organizing resources in a resource group](/docs/resources?topic=resources-bp_resourcegroups#bp_resourcegroups).
 
-Enter any tags you want to use to organize this resource in the **Tags** field in a comma-separated list.  Tags can
-contain special characters, which can be used in creating key-value pairs (e.g., key:value) for grouping related tags. Tags are visible across the account.
+Enter any tags that you want to use to organize this resource in the **Tags** field in a comma-separated list. Tags can
+contain special characters, which can be used in creating key-value pairs such as `key:value` for grouping related tags. Tags are visible across the account.
 
 ## Step 3. Complete the pre-installation
-{: step3}
+{: #step3}
+
 Run the preinstallation script. Only a cluster administrator can run the script. If you do not have the proper role on the cluster, click **Share link** to share the preinstallation script with your cluster administrator. Otherwise, click **Run script** to execute the script. Confirm that the script completed successfully.
 
 ## Step 4. Set the deployment values
-{: step4}
-Ensure that an entitlement is assigned.  If not, you must get an entitlement.
+{: #step4}
 
-Confirm your agreement to the Third-Party Service Agreements by checking the box.
+Set the `consoleRoutePrefix` parameter. This value is used as the subdomain in the URL for the {{site.data.keyword.icpa_short}} landing page. The remainder of the URL is the OpenShift Cluster Console URL.
 
-Set the `consoleRoutePrefix` parameter.  This value is used as the subdomain in the URL for the {{site.data.keyword.icpa_short}} landing page; the remainder of the URL is the OpenShift Cluster Console URL.
+Expand **Parameters with default values** and change the values as needed. To install {{site.data.keyword.mobilefoundation_short}}, set `mobileFoundation` to `true` and specify values for the `mobileFoundation*` deployment parameters. To install Common Services, set `commonServices` to `true` and review the values for the remaining `commonServices*` deployment parameters.
+
 
 ## Step 5. Install the Cloud Pak
-{: step5}
-Click **Install**.
+{: #step5}
+
+Ensure that an entitlement is assigned. If not, you must get an entitlement.
+
+Confirm your agreement to the Third-Party Service Agreements by checking the box. Then, click **Install**.
 
 ## Step 6. Next steps
-{: step6}
+{: #step6}
 After the installation completes, verify that you can access the dashboards.
 
-1. Click the displayed Kabanero Enterprise dashboard URL.
-2. On the Kabanero Enterprise dashboard, click **Instance**. The Kabanero Enterprise instance page provides information about your collections and, under **Tools**, has links to the Tekton dashboard and other tools such as Transformation Advisor.
+1. Click the workspace name: **Schematics / Workspace / *workspace_name* **
+2. On the workspace activity page, click **Offering dashboard**.
 
-You can also access the Kabanero Enterprise dashboard from an OpenShift Web Console. Go to the OpenShift Container Platform application console and click **Kabanero Enterprise** from the navigation menu.
+To view the Cloud Pak instance page, click ![Console hamburger menu icon](images/hamburger_icon.png) **&gt; Instance** or click the **View team instance** button. The instance page provides information about your stacks and has links to the Tekton dashboard and other tools such as {{site.data.keyword.ta_short}} and {{site.data.keyword.appnav}}.
+{: tip}
 
-For information about how to use Kabanero Enterprise, see the [Kabanero resources ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://kabanero.io/){: new_window}.
+You can also access the dashboard from an OpenShift Web Console. Go to the OpenShift Container Platform application console and click **Cloud Pak Console** from the navigation menu.
 
-For information about how to use Transformation Advisor, see the [Transformation Advisor web page ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://ibm.biz/cloudta){: new_window} and [videos ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://transformationadvisor.github.io/video/){: new_window}.
+For information about how to use {{site.data.keyword.ke_notm}}, see the documentation about developing, building, deploying, and managing applications in the [{{site.data.keyword.icpa_short}} Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x){: external} and the [Kabanero resources](https://kabanero.io/){: external}.
+
+For information about how to use {{site.data.keyword.ta_short}}, see the {{site.data.keyword.ta_short}} [Knowledge Center](https://www.ibm.com/support/knowledgecenter/SS5Q6W){: external}, [videos ](https://transformationadvisor.github.io/video/){: external}, and [web page](https://ibm.biz/cloudta){: external}.
+
+For information about how to use {{site.data.keyword.appnav}}, see [Managing the environment](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x/admin-overview.html){: external} in the {{site.data.keyword.icpa_short}} Knowledge Center or the [{{site.data.keyword.appnav}} web page](https://ibm.github.io/appnav){: external}.
 
 ## Step 7. (Optional) Install optional components
-{: step7}
+{: #step7}
 
-You can install other components to add features and functionality. See [Installing in the {{site.data.keyword.icpa_short}} Knowledge Center ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/knowledgecenter/SSCSJL/install-icpa.html){: new_window} for a list of optional components and installation instructions.
+You can install other products to which you're entitled. See [Installing](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x/install-icpa.html){: external} in the {{site.data.keyword.icpa_short}} Knowledge Center for a list of optional components and installation instructions.

@@ -1,8 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="cloud-pak-applications" category="devops" audience="service" href="/docs/cloud-pak-applications?topic=cloud-pak-applications-getting-started#getting-started" path="cloud-pak-applications"}
-IBM Cloud Pak for Applications
+{: .toc subcollection="cloud-pak-applications" category="cloud_pak" audience="service" href="/docs/cloud-pak-applications?topic=cloud-pak-applications-getting-started#getting-started" path="cloud-pak-applications"}
+Cloud Pak for Applications
 
 {: .navgroup id="learn"}
     getting-started.md
@@ -11,11 +11,14 @@ IBM Cloud Pak for Applications
     {: .topicgroup}
     Related links
         [Kabanero](https://kabanero.io/)
-        [IBM Cloud Transformation Advisor](https://ibm.biz/cloudta)
+        [IBM Application Navigator](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x/appnav/README.html)
+        [IBM Cloud Platform Common Services](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x/using-cs.html)
+        [IBM Cloud Transformation Advisor](https://www.ibm.com/support/knowledgecenter/SS5Q6W)
+        [IBM Mobile Foundation](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/ibmcloudpakforapplications/)
 {: .navgroup-end}
 
 {: .navgroup id="howto"}
-    upgrading.md
+    uninstalling.md
 {: .navgroup-end}
 
 {: .navgroup id="help"}

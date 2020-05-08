@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-11-1"
+  years: 2019, 2020
+lastupdated: "2020-04-30"
 
 keywords: updating, upgrading, Cloud Pak for Applications, Kabanero, icp, icpa, icp4a, ocp, openshift, was, mobile, runtime, container
 
@@ -27,7 +27,7 @@ Follow the instructions on this page to update an existing installation of {{sit
 ## Before you begin
 {: #beforeyouupgrade}
 
-Before starting, ensure that you have the IBM Cloud Identity and Access Management (IAM) permissions that are required for installation.  Refer to the [Before you begin section of the Getting started page](cloud-pak-applications?topic=cloud-pak-applications-prereqs).
+Before starting, ensure that you have the IBM Cloud Identity and Access Management (IAM) permissions that are required for installation.  Refer to the [Before you begin section of the Getting started page](/docs/cloud-pak-applications?topic=cloud-pak-applications-prereqs).
 
 ## Step 1. Use the Schematic workspace to view your installation of {{site.data.keyword.icpa_short}}
 {: ustep1}
