@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-04-30"
+lastupdated: "2020-06-09"
 
 keywords: getting started tutorial, getting started, Cloud Pak for Applications, Kabanero, icp, icpa, icp4a, ocp, openshift, was, mobile, runtime, container
 
@@ -69,13 +69,15 @@ Get a Red Hat OpenShift cluster and configure it for use with the Cloud Pak. If 
 
 Make sure that the cluster meets the minimum scheduling capacity:
 
-| Software | Memory (GB) | CPU (cores) | Disk (GB) | Nodes |
-| -------- | ----------- | ----------- | --------- | ----- |
-| {{site.data.keyword.ke_notm}} | 10 | 4 | 13 | 2 |
-| {{site.data.keyword.cloud_notm}} {{site.data.keyword.ta_short}} | 2 | 1 | 4 |  |
-| IBM {{site.data.keyword.appnav}} | 1 | 1 | 2 |  |
-| IBM {{site.data.keyword.mobilefoundation_short}} | 7 | 6 | 1 |  |
-| **Total** | **20** | **12** | **20** | **2** |
+| Software | Nodes | Memory (GB/node) | CPU (cores/node) | Disk (GB/node) |
+| --- | --- | --- | --- | --- |
+| {{site.data.keyword.ke}}, {{site.data.keyword.ta_short}}, and {{site.data.keyword.appnav}} | 3 | 16 | 4 | 20 |
+| {{site.data.keyword.ke}}, {{site.data.keyword.ta_short}}, {{site.data.keyword.appnav}}, and {{site.data.keyword.mobilefoundation_short}} | 5 | 16 | 4 | 20 |
+| CodeReady Workspaces with Codewind workspace (add 1 node per 8 developers) | 1 | 16 | 4 | 20 |
+
+To determine the amount of scheduling capacity you need, consider several things. First, the size of the core capabilities that you are deploying, the optional capabilities you want to use, and the capacity for your applications. Second, consider how Red Hat OpenShift updates are scheduled and allow adequate capacity for a failure. The amount of capacity must allow for the spike in CPU as the runtimes initialize and their steady state use. The table shows the recommended capacity for a minimal environment to try the Cloud Pak. It assumes a building block of each worker node has 4 CPUs, 16 GB Memory, and 20 GB Disk on each block. The capacity allows a single worker node at a time to be quiesced, updated, and reactivated into the cluster, and allows the environment to remain operational. It is best to always have a single node capacity available for high availability.
+{: tip}
+
 Additional resources are required if the IBM Cloud Platform Common Services are installed. For more information, see [Common Services prerequisites](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x/install-prerequisites-cs.html){: external}.
 
 
