@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-04-20"
+lastupdated: "2020-08-24"
 
 keywords: what, new, Cloud Pak for Applications, Kabanero, icp, icpa, icp4a, ocp, openshift, was, mobile, runtime, container
 
@@ -24,13 +24,28 @@ subcollection: cloud-pak-applications
 Learn about new features, improvements, any limitations, and other changes in the latest product release.
 {: shortdesc}
 
+## {{site.data.keyword.icpa_short}} Version 4.2
+{: #cloud-version-42}
+
+### Version 4.2.1
+
+* **Software support**
+    * Requires [Red Hat&reg; OpenShift&reg; Container Platform (OCP) version 4.4](/docs/openshift?topic=openshift-getting-started). You cannot use {{site.data.keyword.icpa_rm}} version 4.2.1 with earlier versions of OCP.
+    * Requires a [**classic** OpenShift cluster](/docs/openshift?topic=openshift-getting-started#clusters_gs).
+
+
+* **Features and enhancements**
+    * Removed Version 4.1.1 from the {{site.data.keyword.cloud_notm}} catalog.
+    * Integrated miscellaneous service maintenance.
+
+
 ## {{site.data.keyword.icpa_short}} Version 4.1
 {: #cloud-version-41}
 
 ### Version 4.1.1
 
 * **Software support**
-    * Requires [Red Hat&reg; OpenShift&reg; Container Platform (OCP) version 4.3](/docs/openshift?topic=openshift-getting-started) or later. You cannot use {{site.data.keyword.icpa_rm}} version 4.1.1 with earlier versions of OCP.
+    * Requires [Red Hat OpenShift Container Platform (OCP) version 4.3](/docs/openshift?topic=openshift-getting-started) or later. You cannot use {{site.data.keyword.icpa_short}} version 4.1.1 with earlier versions of OCP.
     * Adds support for [IBM {{site.data.keyword.mobilefoundation_short}}](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/ibmcloudpakforapplications/){: external}.
     * Adds support for [IBM Cloud Platform Common Services](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x/using-cs.html){: external}.
 

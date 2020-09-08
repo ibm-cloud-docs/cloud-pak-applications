@@ -11,13 +11,14 @@ Cloud Pak for Applications
     {: .topicgroup}
     Related links
         [Kabanero](https://kabanero.io/)
-        [IBM Application Navigator](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x/appnav/README.html)
-        [IBM Cloud Platform Common Services](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x/using-cs.html)
+        [IBM Application Navigator](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.2.x/appnav/README.html)
+        [IBM Cloud Platform Common Services](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.2.x/using-cs.html)
         [IBM Cloud Transformation Advisor](https://www.ibm.com/support/knowledgecenter/SS5Q6W)
         [IBM Mobile Foundation](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/ibmcloudpakforapplications/)
 {: .navgroup-end}
 
 {: .navgroup id="howto"}
+    upgrading.md
     uninstalling.md
 {: .navgroup-end}
 

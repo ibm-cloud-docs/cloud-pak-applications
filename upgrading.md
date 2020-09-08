@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-04-30"
+lastupdated: "2020-09-08"
 
 keywords: updating, upgrading, Cloud Pak for Applications, Kabanero, icp, icpa, icp4a, ocp, openshift, was, mobile, runtime, container
 
@@ -24,6 +24,14 @@ subcollection: cloud-pak-applications
 
 Follow the instructions on this page to update an existing installation of {{site.data.keyword.icpa_short}}.
 
+1. Ensure that you have the IBM Cloud Identity and Access Management (IAM) permissions that are required for installation. Refer to the [Before you begin section of the Getting started page](/docs/cloud-pak-applications?topic=cloud-pak-applications-getting-started#prereqs).
+
+2. Manually upgrade from version 4.1.1 to 4.2.1 with the [command-line interface (CLI)](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.2.x/install-upgrade.html) in the {{site.data.keyword.icpa_short}} Knowledge Center.
+
+You must manually upgrade to 4.2.1 with the CLI. If you try to upgrade with the **Update** button in the schematics workspace, you get an error and cannot fully upgrade the product.
+{: tip}
+
+<!--
 ## Before you begin
 {: #beforeyouupgrade}
 
@@ -58,3 +66,5 @@ In the **Summary** section, the offering version that is currently installed is 
 {: uafter}
 
 To view the logs, navigate to the **Activity** view from the menu, then click **View logs** on the plan that is being applied.
+
+-->

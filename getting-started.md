@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-06-09"
+lastupdated: "2020-08-24"
 
 keywords: getting started tutorial, getting started, Cloud Pak for Applications, Kabanero, icp, icpa, icp4a, ocp, openshift, was, mobile, runtime, container
 
@@ -65,7 +65,7 @@ The part numbers for {{site.data.keyword.icpa_short}} are as follows. You can ha
 | D24XHLL | IBM CLOUD PAK FOR APPLICATIONS VPC MONTHLY LICENSE |
 | D24XILL | IBM CLOUD PAK FOR APPLICATIONS VPC MONTHLY LICENSE |
 
-Get a Red Hat OpenShift cluster and configure it for use with the Cloud Pak. If you do not have a cluster, create one and then return to the {{site.data.keyword.icpa_short}} page.
+Get a Red Hat OpenShift classic cluster and configure it for use with the Cloud Pak. If you do not have a cluster, [create a classic OpenShift cluster](/docs/openshift?topic=openshift-getting-started#clusters_gs) and then return to the {{site.data.keyword.icpa_short}} page.
 
 Make sure that the cluster meets the minimum scheduling capacity:
 
@@ -78,7 +78,7 @@ Make sure that the cluster meets the minimum scheduling capacity:
 To determine the amount of scheduling capacity you need, consider several things. First, the size of the core capabilities that you are deploying, the optional capabilities you want to use, and the capacity for your applications. Second, consider how Red Hat OpenShift updates are scheduled and allow adequate capacity for a failure. The amount of capacity must allow for the spike in CPU as the runtimes initialize and their steady state use. The table shows the recommended capacity for a minimal environment to try the Cloud Pak. It assumes a building block of each worker node has 4 CPUs, 16 GB Memory, and 20 GB Disk on each block. The capacity allows a single worker node at a time to be quiesced, updated, and reactivated into the cluster, and allows the environment to remain operational. It is best to always have a single node capacity available for high availability.
 {: tip}
 
-Additional resources are required if the IBM Cloud Platform Common Services are installed. For more information, see [Common Services prerequisites](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x/install-prerequisites-cs.html){: external}.
+Additional resources are required if the IBM Cloud Platform Common Services are installed. For more information, see [Common Services prerequisites](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.2.x/install-prerequisites-cs.html){: external}.
 
 
 Also, ensure that you have the proper IBM Cloud Identity and Access Management (IAM) permissions:
@@ -144,13 +144,13 @@ To view the Cloud Pak instance page, click ![Console hamburger menu icon](images
 
 You can also access the dashboard from an OpenShift Web Console. Go to the OpenShift Container Platform application console and click **Cloud Pak Console** from the navigation menu.
 
-For information about how to use {{site.data.keyword.ke_notm}}, see the documentation about developing, building, deploying, and managing applications in the [{{site.data.keyword.icpa_short}} Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x){: external} and the [Kabanero resources](https://kabanero.io/){: external}.
+For information about how to use {{site.data.keyword.ke_notm}}, see the documentation about developing, building, deploying, and managing applications in the [{{site.data.keyword.icpa_short}} Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.2.x){: external} and the [Kabanero resources](https://kabanero.io/){: external}.
 
 For information about how to use {{site.data.keyword.ta_short}}, see the {{site.data.keyword.ta_short}} [Knowledge Center](https://www.ibm.com/support/knowledgecenter/SS5Q6W){: external}, [videos ](https://transformationadvisor.github.io/video/){: external}, and [web page](https://ibm.biz/cloudta){: external}.
 
-For information about how to use {{site.data.keyword.appnav}}, see [Managing the environment](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x/admin-overview.html){: external} in the {{site.data.keyword.icpa_short}} Knowledge Center or the [{{site.data.keyword.appnav}} web page](https://ibm.github.io/appnav){: external}.
+For information about how to use {{site.data.keyword.appnav}}, see [Managing the environment](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.2.x/admin-overview.html){: external} in the {{site.data.keyword.icpa_short}} Knowledge Center or the [{{site.data.keyword.appnav}} web page](https://ibm.github.io/appnav){: external}.
 
 ## Step 7. (Optional) Install optional components
 {: #step7}
 
-You can install other products to which you're entitled. See [Installing](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x/install-icpa.html){: external} in the {{site.data.keyword.icpa_short}} Knowledge Center for a list of optional components and installation instructions.
+You can install other products to which you're entitled. See [Installing](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.2.x/install-icpa.html){: external} in the {{site.data.keyword.icpa_short}} Knowledge Center for a list of optional components and installation instructions.
