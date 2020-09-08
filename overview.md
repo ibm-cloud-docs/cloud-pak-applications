@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-04-16"
+lastupdated: "2020-08-24"
 
 subcollection: cloud-pak-applications
 ---
@@ -57,7 +57,7 @@ Red Hat OpenShift delivers a comprehensive solution for hybrid cloud, enterprise
 
 <!-- ![`Kabanero.io` open source content is provided in {{site.data.keyword.icpa}}.](images/kabanero.png) -->
 
-Learn more about {{site.data.keyword.ke_notm}} in the documentation about developing, building, deploying, and managing applications in the [{{site.data.keyword.icpa_short}} Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x){: external}.
+Learn more about {{site.data.keyword.ke_notm}} in the documentation about developing, building, deploying, and managing applications in the [{{site.data.keyword.icpa_short}} Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.2.x){: external}.
 
 Learn more about Kabanero at the [Kabanero.io website](https://kabanero.io){: external}.
 
@@ -66,7 +66,7 @@ Learn more about Kabanero at the [Kabanero.io website](https://kabanero.io){: ex
 
 IBM {{site.data.keyword.appnav}} is a tool that helps you visualize, inspect, and monitor the deployed resources in applications, with a single view across hybrid deployments. After you modernize your applications, you can use {{site.data.keyword.appnav}} to define cloud applications, import Network Deployment cells or Liberty collectives to visualize both existing and containerized applications, add your modernized applications to cloud applications, and otherwise administer cloud native and hybrid applications. {{site.data.keyword.appnav}} extends the open source Kubernetes Application Navigator (kAppNav) with integrated support for WebSphere Application Server Network Deployment and Liberty.
 
-Learn more about IBM {{site.data.keyword.appnav}} in the [{{site.data.keyword.icpa_short}} Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x/appnav/README.html){: external} and at [https://ibm.github.io/appnav](https://ibm.github.io/appnav){: external}.
+Learn more about IBM {{site.data.keyword.appnav}} in the [{{site.data.keyword.icpa_short}} Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.2.x/appnav/README.html){: external} and at [https://ibm.github.io/appnav](https://ibm.github.io/appnav){: external}.
 
 Learn more about kAppNav at [https://kappnav.io](https://kappnav.io){: external}.
 

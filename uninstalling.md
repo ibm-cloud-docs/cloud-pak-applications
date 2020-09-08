@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-05-29"
+lastupdated: "2020-08-24"
 
 keywords: uninstalling, removing, workspace, resource
 
@@ -56,7 +56,7 @@ Or:
 1. From the Schematics workspace for your Cloud Pak installation, click **Actions &gt; Delete**.
 2. In the Delete workspace dialog, select **Delete all associated resources** and, optionally, **Delete workspace**.
 
-If you select to delete the workspace without also selecting to delete all associated resources, the resources remain on your cluster. To uninstall the resources, you must use the [Cloud Pak CLI](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x/install-uninstall.html){: external}.
+If you select to delete the workspace without also selecting to delete all associated resources, the resources remain on your cluster. To uninstall the resources, you must use the [Cloud Pak CLI](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.2.x/install-uninstall.html){: external}.
 {: important}
 
 
