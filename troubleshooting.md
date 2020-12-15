@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-08-24"
+lastupdated: "2020-12-09"
 
 subcollection: cloud-pak-applications
 ---
@@ -22,7 +22,7 @@ You might encounter an issue when installing or otherwise using the Cloud Pak.
 
 To diagnose problems with the installer, first view the log files. If the log files do not identify the problem, see the following information.
 
-The issues listed on this page are specific to installing and running {{site.data.keyword.icpa_short}} on IBM Cloud. For the complete list of troubleshooting issues, see the [Troubleshooting page for {{site.data.keyword.icpa_short}} in the Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.2.x/troubleshoot.html).
+The issues listed on this page are specific to installing and running {{site.data.keyword.icpa_short}} on {{site.data.keyword.cloud}}. For the complete list of troubleshooting issues, see the [Troubleshooting page for {{site.data.keyword.icpa_short}} in the Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.3.x/troubleshoot.html).
 
 ## Installation stops due to timeout error
 {: #timeout}
