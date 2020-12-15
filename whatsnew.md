@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-08-24"
+lastupdated: "2020-12-15"
 
 keywords: what, new, Cloud Pak for Applications, Kabanero, icp, icpa, icp4a, ocp, openshift, was, mobile, runtime, container
 
@@ -24,14 +24,29 @@ subcollection: cloud-pak-applications
 Learn about new features, improvements, any limitations, and other changes in the latest product release.
 {: shortdesc}
 
+## {{site.data.keyword.icpa_short}} Version 4.3
+{: #cloud-version-43}
+
+### Version 4.3.0
+
+* **Software support**
+    * Requires [{{site.data.keyword.redhat_full}} OpenShift&reg; Container Platform (OCP) version 4.5](/docs/openshift?topic=openshift-getting-started). You cannot use {{site.data.keyword.icpa_rm}} version 4.3.0 with earlier versions of OCP.
+    * Requires a [**classic** {{site.data.keyword.openshiftshort}} cluster](/docs/openshift?topic=openshift-getting-started#clusters_gs).
+
+
+* **Features and enhancements**
+    * Removed Version 4.2.1 from the {{site.data.keyword.cloud_notm}} catalog.
+    * Integrated miscellaneous service maintenance.
+
+
 ## {{site.data.keyword.icpa_short}} Version 4.2
 {: #cloud-version-42}
 
 ### Version 4.2.1
 
 * **Software support**
-    * Requires [Red Hat&reg; OpenShift&reg; Container Platform (OCP) version 4.4](/docs/openshift?topic=openshift-getting-started). You cannot use {{site.data.keyword.icpa_rm}} version 4.2.1 with earlier versions of OCP.
-    * Requires a [**classic** OpenShift cluster](/docs/openshift?topic=openshift-getting-started#clusters_gs).
+    * Requires [{{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} Container Platform (OCP) version 4.4](/docs/openshift?topic=openshift-getting-started). You cannot use {{site.data.keyword.icpa_rm}} version 4.2.1 with earlier versions of OCP.
+    * Requires a [**classic** {{site.data.keyword.openshiftshort}} cluster](/docs/openshift?topic=openshift-getting-started#clusters_gs).
 
 
 * **Features and enhancements**
@@ -45,7 +60,7 @@ Learn about new features, improvements, any limitations, and other changes in th
 ### Version 4.1.1
 
 * **Software support**
-    * Requires [Red Hat OpenShift Container Platform (OCP) version 4.3](/docs/openshift?topic=openshift-getting-started) or later. You cannot use {{site.data.keyword.icpa_short}} version 4.1.1 with earlier versions of OCP.
+    * Requires [{{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} Container Platform (OCP) version 4.3](/docs/openshift?topic=openshift-getting-started) or later. You cannot use {{site.data.keyword.icpa_short}} version 4.1.1 with earlier versions of OCP.
     * Adds support for [IBM {{site.data.keyword.mobilefoundation_short}}](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/ibmcloudpakforapplications/){: external}.
     * Adds support for [IBM Cloud Platform Common Services](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x/using-cs.html){: external}.
 
@@ -77,10 +92,10 @@ Learn about new features, improvements, any limitations, and other changes in th
 ### Version 3.0.0
 
 * **Software support**
-    * Adds support for Red Hat OpenShift Container Platform
+    * Adds support for {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} Container Platform
     * Adds support for {{site.data.keyword.ke_notm}}
     * Adds support for {{site.data.keyword.ta_short}}
-    * Adds support for Red Hat Runtimes
+    * Adds support for {{site.data.keyword.redhat_notm}} Runtimes
     * Adds support for Developer tools (Eclipse Codewind)
     * Adds support for IBM Mobile Foundation
 
