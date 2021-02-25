@@ -10,10 +10,9 @@ Cloud Pak for Applications
 
     {: .topicgroup}
     Related links
-        [IBM Application Navigator](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.3.x/appnav/README.html)
         [IBM Cloud Platform Common Services](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.3.x/using-cs.html)
         [IBM Cloud Transformation Advisor](https://www.ibm.com/support/knowledgecenter/SS5Q6W)
-        [IBM Mobile Foundation](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/ibmcloudpakforapplications/)
+        [IBM WebSphere Application Server for VSI](https://cloud.ibm.com/docs/was-for-vsi?topic=was-for-vsi-getting-started)
 {: .navgroup-end}
 
 {: .navgroup id="howto"}

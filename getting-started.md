@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2020-12-15"
+  years: 2019, 2021
+lastupdated: "2021-02-23"
 
 keywords: getting started tutorial, getting started, Cloud Pak for Applications, Kabanero, icp, icpa, icp4a, ocp, openshift, was, mobile, runtime, container
 
@@ -35,19 +35,23 @@ completion-time: 30m
 
 ## What's inside this {{site.data.keyword.IBM_notm}} Cloud Pak
 {: #whatsinside}
-{{site.data.keyword.icpa_short}} includes the following products:
+{{site.data.keyword.icpa_short}} includes the following products and components:
 
 | Product | Description |
 | ------- | ----------- |
 | **IBM WebSphere Application Server** | Industry-leading, production-ready, standards-based Java&trade; EE-compliant architectures |
-| **{{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} Container Platform** |  A comprehensive solution for hybrid cloud, enterprise container, and Kubernetes development and deployments |
-| **IBM {{site.data.keyword.ke}}** | A microservices-based framework that simplifies development, build, and deployment of applications for both Kubernetes and Knative (serverless) |
-| **{{site.data.keyword.redhat_notm}} Runtimes** | Open runtimes, tools, and components for developing and maintaining cloud-native applications |
 | **IBM {{site.data.keyword.mobilefoundation_short}}** | An industry-leading, secured platform for developing and deploying the next generation of digital apps |
-| **IBM Modernization &amp; Developer Tools** | Tools to assist with your move to the cloud |
-| **{{site.data.keyword.cloud_notm}} {{site.data.keyword.ta_short}}** | A developer tool that helps you plan, prioritize, and package your on-premises workloads for modernization |
-| **IBM {{site.data.keyword.appnav}}** | A tool that helps you visualize, inspect, and monitor the deployed resources in applications |
 | **IBM Cloud Private** | A private cloud platform that provides the benefits of the public cloud from the safety of your firewall-protected data center |
+| **{{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} Container Platform** |  A comprehensive solution for hybrid cloud, enterprise container, and Kubernetes development and deployments |
+| **{{site.data.keyword.redhat_notm}} Runtimes** | Open runtimes, tools, and components for developing and maintaining cloud-native applications |
+
+
+| Component | Description |
+| ------- | ----------- |
+| **{{site.data.keyword.cloud_notm}} {{site.data.keyword.ta_short}}** | A developer tool that helps you plan, prioritize, and package your on-premises workloads for modernization |
+| **IBM {{site.data.keyword.ke_notm}}** [(Deprecated)](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.3.x/about-deprecations.html){: external} | A microservices-based framework that simplifies development, build, and deployment of applications for both Kubernetes and Knative (serverless). |
+| **IBM {{site.data.keyword.appnav}}** [(Deprecated)](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.3.x/about-deprecations.html){: external} | A tool that helps you visualize, inspect, and monitor the deployed resources in applications |
+
 
 For more information about these products, see the **Key offerings** section of the [About](/docs/cloud-pak-applications?topic=cloud-pak-applications-about) page.
 
@@ -62,16 +66,11 @@ The part numbers for {{site.data.keyword.icpa_short}} are as follows. You can ha
 
 | Part Number | Description |
 | ----------- | ----------- |
-| D24XJLL | IBM CLOUD PAK FOR APPLICATIONS VIRTUAL PROCESSOR CORE LICENSE + SW SUBSCRIPTION & SUPPORT 12 MONTHS |
-| D24XLLL | IBM CLOUD PAK FOR APPLICATIONS VIRTUAL PROCESSOR CORE FOR IBM Z LICENSE + SW SUBSCRIPTION & SUPPORT 12 MONTHS |
 | E0QB6LL | IBM CLOUD PAK FOR APPLICATIONS VIRTUAL PROCESSOR CORE ANNUAL SW SUBSCRIPTION & SUPPORT RENEWAL |
-| E0QB7LL | IBM CLOUD PAK FOR APPLICATIONS VIRTUAL PROCESSOR CORE FOR IBM Z ANNUAL SW SUBSCRIPTION & SUPPORT RENEWAL |
 | D24XKLL | IBM CLOUD PAK FOR APPLICATIONS VIRTUAL PROCESSOR CORE SW SUBSCRIPTION & SUPPORT REINSTATEMENT 12 MONTHS |
+| E0QB7LL | IBM CLOUD PAK FOR APPLICATIONS VIRTUAL PROCESSOR CORE FOR IBM Z ANNUAL SW SUBSCRIPTION & SUPPORT RENEWAL |
 | D24XMLL | IBM CLOUD PAK FOR APPLICATIONS VIRTUAL PROCESSOR CORE FOR IBM Z SW SUBSCRIPTION & SUPPORT REINSTATEMENT 12 MONTHS |
-| D24XNLL | IBM Cloud Pak for Applications Virtual Processor Core Trade Up from Prior Programs |
-| D24XPLL | IBM Cloud Pak for Applications Virtual Processor Core for IBM Z Trade Up from Prior Programs |
-| D24XHLL | IBM CLOUD PAK FOR APPLICATIONS VPC MONTHLY LICENSE |
-| D24XILL | IBM CLOUD PAK FOR APPLICATIONS VPC MONTHLY LICENSE |
+
 
 Get a {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} classic cluster and configure it for use with the Cloud Pak. If you do not have a cluster, [create a classic {{site.data.keyword.openshiftshort}} cluster](/docs/openshift?topic=openshift-getting-started#clusters_gs) and then return to the {{site.data.keyword.icpa_short}} page.
 
@@ -165,14 +164,14 @@ To view the Cloud Pak instance page, click ![Console hamburger menu icon](images
 
 You can also access the dashboard from an {{site.data.keyword.openshiftshort}} Web Console. Go to the {{site.data.keyword.openshiftshort}} Container Platform application console and click **Cloud Pak Console** from the navigation menu.
 
-For information about how to use {{site.data.keyword.ke_notm}}, see the documentation about developing, building, deploying, and managing applications in the [{{site.data.keyword.icpa_short}} Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.3.x){: external}.
+For information about how to use {{site.data.keyword.ke_notm}}, see the [documentation about developing, building, deploying, and managing applications](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.3.x){: external}.
 
-For information about how to use {{site.data.keyword.ta_short}}, see the {{site.data.keyword.ta_short}} [Knowledge Center](https://www.ibm.com/support/knowledgecenter/SS5Q6W){: external}, [videos](https://transformationadvisor.github.io/video/){: external}, and [web page](https://ibm.biz/cloudta){: external}.
+For information about how to use {{site.data.keyword.ta_short}}, see the {{site.data.keyword.ta_short}} [documentation](https://www.ibm.com/support/knowledgecenter/SS5Q6W){: external}, [videos](https://transformationadvisor.github.io/video/){: external}, and [web page](https://ibm.biz/cloudta){: external}.
 
-For information about how to use {{site.data.keyword.appnav}}, see [Managing the environment](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.3.x/admin-overview.html){: external} in the {{site.data.keyword.icpa_short}} Knowledge Center or the [{{site.data.keyword.appnav}} web page](https://ibm.github.io/appnav){: external}.
+For information about how to use {{site.data.keyword.appnav}}, see [Managing the environment](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.3.x/admin-overview.html){: external} in the {{site.data.keyword.icpa_short}} documentation or the [{{site.data.keyword.appnav}} web page](https://ibm.github.io/appnav){: external}.
 
 ## (Optional) Install optional components
 {: #step7}
 {: step}
 
-You can install other products to which you're entitled. See [Installing](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.3.x/install-icpa.html){: external} in the {{site.data.keyword.icpa_short}} Knowledge Center for a list of optional components and installation instructions.
+You can install other products to which you're entitled. See [Installing](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.3.x/install-icpa.html){: external} for a list of optional components and installation instructions.

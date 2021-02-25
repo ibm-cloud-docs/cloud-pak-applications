@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2020-12-15"
+  years: 2019, 2021
+lastupdated: "2021-02-23"
 
 keywords: what, new, Cloud Pak for Applications, Kabanero, icp, icpa, icp4a, ocp, openshift, was, mobile, runtime, container
 
@@ -27,10 +27,17 @@ Learn about new features, improvements, any limitations, and other changes in th
 ## {{site.data.keyword.icpa_short}} Version 4.3
 {: #cloud-version-43}
 
+
 ### Version 4.3.0
 
+* **Documentation updates **
+    * Added section entitled [Deprecated features not supported on {{site.data.keyword.redhat_notm}} {{site.data.keyword.openshiftshort}} 4.7 and later](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.3.x/about-deprecations.md#ocp46){: external}.
+    * Removed statements about the ability to purchase {{site.data.keyword.icpa_rm}} from topics within the [Installing](install-icpa.md) section.
+    * Removed invalidated part numbers from [Getting started with {{site.data.keyword.icpa_short}}](getting-started.md).
+
+
 * **Software support**
-    * Requires [{{site.data.keyword.redhat_full}} OpenShift&reg; Container Platform (OCP) version 4.5](/docs/openshift?topic=openshift-getting-started). You cannot use {{site.data.keyword.icpa_rm}} version 4.3.0 with earlier versions of OCP.
+    * Adds support for [{{site.data.keyword.redhat_full}} OpenShift&reg; Container Platform (OCP) version 4.6](https://docs.openshift.com/container-platform/4.6){: external}. You can use Cloud Pak for Applications version 4.3.0 on either OCP 4.5 or 4.6. You cannot use {{site.data.keyword.icpa_short}} version 4.3.0 with earlier versions of OCP.
     * Requires a [**classic** {{site.data.keyword.openshiftshort}} cluster](/docs/openshift?topic=openshift-getting-started#clusters_gs).
 
 
@@ -66,7 +73,7 @@ Learn about new features, improvements, any limitations, and other changes in th
 
 
 * **Features and enhancements**
-    * Changed the name of the _IBM Kabanero&trade; Enterprise_ software offering to _Accelerators for Teams_. Learn about {{site.data.keyword.ke_notm}} in the documentation about developing, building, deploying, and managing applications in the [{{site.data.keyword.icpa_short}} Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x){: external}.
+    * Changed the name of the _IBM Kabanero&trade; Enterprise_ software offering to _Accelerators for Teams_. Learn about {{site.data.keyword.ke_notm}} in the [documentation about developing, building, deploying, and managing applications](https://www.ibm.com/support/knowledgecenter/SSCSJL_4.1.x){: external}.
     * Removed Version 3.0.1 from the {{site.data.keyword.cloud_notm}} catalog.
     * Removed instructions for upgrading because you cannot upgrade directly from Version 3.0 to Version 4.1.
     * Added instructions for [uninstalling](/docs/cloud-pak-applications?topic=cloud-pak-applications-uninstalling) your Cloud Pak workspace and resources.
