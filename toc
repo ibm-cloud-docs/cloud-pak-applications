@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="cloud-pak-applications" category="cloud_pak" audience="service" href="/docs/cloud-pak-applications?topic=cloud-pak-applications-getting-started#getting-started" path="cloud-pak-applications"}
+{: .toc subcollection="cloud-pak-applications" category="dev_ops" audience="software" href="/docs/cloud-pak-applications?topic=cloud-pak-applications-getting-started#getting-started" path="cloud-pak-applications"}
 Cloud Pak for Applications
 
 {: .navgroup id="learn"}
