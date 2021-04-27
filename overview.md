@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-02-23"
+lastupdated: "2021-04-27"
 
 subcollection: cloud-pak-applications
 ---
@@ -12,10 +12,14 @@ subcollection: cloud-pak-applications
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
 {:external: target="_blank" .external}
 
 # About
 {: #about}
+
+This information applies to {{site.data.keyword.icpa_rm}} version 4.3.x on {{site.data.keyword.cloud}}. For information about version 5.1.x, see the [IBM {{site.data.keyword.icpa_short}} 5.1.x documentation](https://www.ibm.com/docs/cloud-paks/cp-applications/5.1?topic=installing){: external}.
+{: note}
 
 {{site.data.keyword.icpa_rm}} is an enterprise-ready, containerized software solution for modernizing existing applications and developing new cloud-native apps that run on {{site.data.keyword.redhat_full}} OpenShift&reg;.
 {: shortdesc}

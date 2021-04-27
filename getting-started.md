@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-02-23"
+lastupdated: "2021-04-27"
 
 keywords: getting started tutorial, getting started, Cloud Pak for Applications, Kabanero, icp, icpa, icp4a, ocp, openshift, was, mobile, runtime, container
 
@@ -29,6 +29,9 @@ completion-time: 30m
 {: #getting-started}
 {: toc-content-type="tutorial"}
 {: toc-completion-time="30m"}
+
+This information applies to {{site.data.keyword.icpa_rm}} version 4.3.x on {{site.data.keyword.cloud}}. For information about version 5.1.x, see the [IBM {{site.data.keyword.icpa_short}} 5.1.x documentation](https://www.ibm.com/docs/cloud-paks/cp-applications/5.1?topic=installing){: external}.
+{: note}
 
 {{site.data.keyword.icpa_rm}} is an enterprise-ready, containerized software solution for modernizing existing applications and developing new cloud-native apps that run on {{site.data.keyword.redhat_full}} OpenShift&reg;. This hybrid, multicloud foundation breaks down technology and data silos to make modernization faster and more secure, and speeds development of applications built for Kubernetes. You can access cloud services and meet the technology standards and policies your company requires. With IBM {{site.data.keyword.mobilefoundation_short}} in this {{site.data.keyword.IBM_notm}} Cloud Pak, developers get a secured platform to rapidly build and deploy the next generation of digital apps, including mobile, wearables, conversation, web, and PWAs.
 {: shortdesc}
